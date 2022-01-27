@@ -17,25 +17,25 @@
 .btn:disabled {
   opacity: 0.5;
 }
-.btn__primary {
+.btn_primary {
   color: var(--white);
   background: var(--primary);
 }
-.btn__primary:hover:not([disabled]) {
+.btn_primary:hover:not([disabled]) {
   background: var(--primary-dark);
 }
-.btn__secondary {
+.btn_secondary {
   color: var(--white);
   background: var(--secondary);
 }
-.btn__secondary:hover:not([disabled]) {
+.btn_secondary:hover:not([disabled]) {
   background: var(--secondary-dark);
 }
-.btn__alternate {
+.btn_alternate {
   background: var(--white);
   color: var(--grey-4);
   border: 1px solid var(--grey-3);
 }
-.btn__alternate:hover:not([disabled]) {
+.btn_alternate:hover:not([disabled]) {
   border-color: var(--black);
 }
