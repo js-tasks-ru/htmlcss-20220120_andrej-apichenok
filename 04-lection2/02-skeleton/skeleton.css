@@ -1,0 +1,45 @@
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 40px 24px 24px;
+  border: 1px solid var(--grey-2);
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.skeleton__userbar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 24px;
+}
+.skeleton__userdata {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.skeleton__avatar {
+  height: 64px;
+  width: 64px;
+  margin-right: 16px;
+  border-radius: 50%;
+  background: var(--grey-2);
+}
+.skeleton__row {
+  height: 20px;
+  margin-bottom: 8px;
+  background: var(--grey-2);
+}
+.skeleton__row {
+  height: 20px;
+  margin-bottom: 8px;
+  background: var(--grey-2);
+}
+.skeleton__row:last-child {
+  margin-bottom: 0;
+}
+.skeleton_row_middle {
+  width: 50%;
+}
+.skeleton_row_small {
+  width: 33%;
+}
