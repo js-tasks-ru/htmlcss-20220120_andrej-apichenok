@@ -1,6 +1,3 @@
-.temp-accordion-container {
-  max-width: 730px;
-}
 .accordion {
   display: flex;
   flex-direction: column;
@@ -30,4 +27,7 @@
   position: absolute;
   right: 0;
   content: '⌃';
+}
+.accordion__content {
+  margin-top: 16px;
 }
