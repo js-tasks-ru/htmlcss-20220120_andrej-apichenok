@@ -37,9 +37,9 @@
 .skeleton__row:last-child {
   margin-bottom: 0;
 }
-.skeleton_row_middle {
+.skeleton__row_middle {
   width: 50%;
 }
-.skeleton_row_small {
+.skeleton__row_small {
   width: 33%;
 }
