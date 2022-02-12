@@ -7,11 +7,13 @@
 
 /* components */
 @import '../../components/preview/preview.css';
+@import '../../components/button/button.css';
 @import '../../components/card/card.css';
 
 :root {
   --white: #ffffff;
   --black: #212429;
+  --black-1: #334d6e;
   --pink: #f784ad;
   --purple: #7048e8;
   --purple-dark: #5028c6;
@@ -22,6 +24,7 @@
   --grey-2: #dde2e5;
   --grey-3: #acb5bd;
   --grey-4: #495057;
+  --grey-overlay: rgba(196, 196, 196, 0.5);
 
   --error: var(--red);
   --success: var(--blue);
