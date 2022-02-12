@@ -1,7 +1,13 @@
 @import '../fonts/fonts.css';
+
+/* template */
 @import '../../components/container/container.css';
 @import '../../components/header/header.css';
 @import '../../components/footer/footer.css';
+
+/* components */
+@import '../../components/preview/preview.css';
+@import '../../components/card/card.css';
 
 :root {
   --white: #ffffff;
@@ -12,7 +18,7 @@
   --blue: #374fc7;
   --blue-dark: #2342c0;
   --red: #f03d3e;
-  --grey-1: #f8f9fa;
+  --grey-1: #f9fafc;
   --grey-2: #dde2e5;
   --grey-3: #acb5bd;
   --grey-4: #495057;
@@ -26,8 +32,9 @@
   --secondary-dark: var(--purple-dark);
 }
 
-* {
+body {
   font-family: 'Roboto', sans-serif;
+  color: var(--black);
 }
 
 .page {
@@ -38,6 +45,5 @@
 }
 .main {
   flex: 1;
-  padding: 68px 0 68px;
-  background: var(--grey-2);
+  background: var(--grey-1);
 }
